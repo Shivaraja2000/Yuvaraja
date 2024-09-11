@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+   
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <h1 class="text-center mt-5 ">Happy Birth Day  </h1>
+                <p class="text-center mt-5 fs-3">&#10084;  My Dear Brother &#10084;</p>
+
+                <div class="center w-100">
+                    <audio src="assests/images/Aanandha_Yaazhai.mp3" id="audio" class="my-3"  controls> </audio>
+                    <!-- <button onclick="playaudio()">play</button> -->
+                    <!-- <button onclick="pauseaudio()">pause</button> -->
+                    <!-- <button onclick="stopaudio()">stop</button> -->
+                </div>
+<hr>
+                <p class="text-center mt-5 fs-2">
+                    First of all, I want to wish you a very happy birthday! 🎉 May this year bring you success, joy, and all the wonderful things you deserve.
+                </p>
+
+
+
+    <video src="assests/images/VN20230912_020804.mp4" controls height="500px" id="video"> video </video>
+    <div class="row d-flex gap-5">
+        <button class="w-25" onclick="playvideo()">play</button>
+        <button class="w-25" onclick="pausevideo()">pause</button>
+        <!-- <button onclick="stopvideo()">stop</button> -->
+    </div>
+    
+
+               
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row  d-flex justify-content-center align-items-center">
+                <div class="col-lg-3">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assests/images/one.jpg" class="d-block w-100" height="500px"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assests/images/two.jpg" class="d-block w-100" height="500px"
+                                    alt="...">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden ">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-center mt-5 fs-3">"Through thick and thin, you've always been my strongest support.
+                        Thank you, brother."</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <video src=""></video>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row mb-3">
+                <h3 class="text-center">Open The GiftBox</h3>
+                <a class="text-center giftboxs  " href="party.html"><button class="btn fs-3 border text-light ">&#x1F381;</button></a>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <script src="assests/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+    var aud=document.getElementById("audio");
+    function playaudio(){
+        aud.play();
+    }
+    function pauseaudio(){
+        aud.pause();
+    }
+    function stopaudio(){
+        aud.stop();
+        aud=0;
+    }
+
+
+
+    var vid=document.getElementById("video");
+    function playvideo(){
+        vid.play();
+    }
+    function pausevideo(){
+        vid.pause();
+    }
+    function stopvideo(){
+      vid.stop();
+        vid=0;
+    }
+    </script>
+</body>
+
+</html>
